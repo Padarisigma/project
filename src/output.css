@@ -582,6 +582,11 @@ video {
   margin: auto;
 }
 
+.my-\[50px\] {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .mb-\[10px\] {
   margin-bottom: 10px;
 }
@@ -598,32 +603,20 @@ video {
   margin-bottom: 80px;
 }
 
-.ml-\[100px\] {
-  margin-left: 100px;
+.ml-\[50px\] {
+  margin-left: 50px;
 }
 
 .mt-\[100px\] {
   margin-top: 100px;
 }
 
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
 .mt-\[5px\] {
   margin-top: 5px;
-}
-
-.ml-\[130px\] {
-  margin-left: 130px;
-}
-
-.ml-\[120px\] {
-  margin-left: 120px;
-}
-
-.ml-\[\] {
-  margin-left: ;
-}
-
-.ml-\[50px\] {
-  margin-left: 50px;
 }
 
 .box-border {
@@ -642,6 +635,10 @@ video {
   display: none;
 }
 
+.h-\[1000px\] {
+  height: 1000px;
+}
+
 .h-\[16px\] {
   height: 16px;
 }
@@ -652,14 +649,6 @@ video {
 
 .h-\[530px\] {
   height: 530px;
-}
-
-.h-\[1000px\] {
-  height: 1000px;
-}
-
-.h-\[1500px\] {
-  height: 1500px;
 }
 
 .w-\[100\%\] {
@@ -686,20 +675,36 @@ video {
   width: 250px;
 }
 
+.w-\[45\%\] {
+  width: 45%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
 .w-\[70\%\] {
   width: 70%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .w-\[\] {
   width: ;
 }
 
-.w-\[1000px\] {
-  width: 1000px;
+.w-\[300px\] {
+  width: 300px;
 }
 
-.w-\[90\%\] {
-  width: 90%;
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-rows-3 {
@@ -752,6 +757,10 @@ video {
 
 .gap-\[50px\] {
   gap: 50px;
+}
+
+.gap-\[60px\] {
+  gap: 60px;
 }
 
 .rounded-\[10px\] {
@@ -870,13 +879,23 @@ video {
   background-color: rgb(254 222 207 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#FF3F3A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 63 58 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#FFFFFF1F\] {
   background-color: #FFFFFF1F;
 }
 
-.bg-\[orange\] {
+.bg-\[white\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 165 0 / var(--tw-bg-opacity, 1));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[yellow\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 0 / var(--tw-bg-opacity, 1));
 }
 
 .bg-transparent {
@@ -911,6 +930,11 @@ video {
 .px-\[40px\] {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.px-\[50px\] {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .px-\[60px\] {
@@ -988,14 +1012,14 @@ video {
   padding-bottom: 7px;
 }
 
-.py-\[0px\] {
-  padding-top: 0px;
-  padding-bottom: 0px;
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
+.px-\[0px\] {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .pb-\[100px\] {
@@ -1010,12 +1034,24 @@ video {
   padding-bottom: 20px;
 }
 
+.pb-\[30px\] {
+  padding-bottom: 30px;
+}
+
+.pb-\[50px\] {
+  padding-bottom: 50px;
+}
+
 .pt-\[100px\] {
   padding-top: 100px;
 }
 
 .pt-\[130px\] {
   padding-top: 130px;
+}
+
+.pt-\[60px\] {
+  padding-top: 60px;
 }
 
 .text-center {
@@ -1110,6 +1146,11 @@ video {
   color: rgb(154 156 165 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#D7DADD\] {
+  --tw-text-opacity: 1;
+  color: rgb(215 218 221 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#FF3F3A\] {
   --tw-text-opacity: 1;
   color: rgb(255 63 58 / var(--tw-text-opacity, 1));
@@ -1157,12 +1198,12 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:ml-\[70px\] {
-    margin-left: 70px;
-  }
-
   .sm\:ml-\[120px\] {
     margin-left: 120px;
+  }
+
+  .sm\:ml-\[70px\] {
+    margin-left: 70px;
   }
 
   .sm\:block {
@@ -1171,10 +1212,6 @@ video {
 
   .sm\:flex {
     display: flex;
-  }
-
-  .sm\:h-\[\] {
-    height: ;
   }
 
   .sm\:h-\[650px\] {
@@ -1201,6 +1238,14 @@ video {
     width: 70%;
   }
 
+  .sm\:w-\[500px\] {
+    width: 500px;
+  }
+
+  .sm\:w-\[45\%\] {
+    width: 45%;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1221,6 +1266,10 @@ video {
     align-items: flex-start;
   }
 
+  .sm\:items-end {
+    align-items: flex-end;
+  }
+
   .sm\:justify-between {
     justify-content: space-between;
   }
@@ -1231,6 +1280,10 @@ video {
 
   .sm\:gap-\[25px\] {
     gap: 25px;
+  }
+
+  .sm\:gap-\[\] {
+    gap: ;
   }
 
   .sm\:px-\[0px\] {
