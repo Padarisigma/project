@@ -3,11 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Courses</title>
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-     <p>hello</p>
-     <p>heelooo</p>
+     <header>
+        <navbar class="px-[30px] sm:px-[0px] sm:w-[70%] items-center py-[20px] m-auto flex justify-between">
+            <div class="flex gap-[40px]">
+              <img src="./foto/logo.png" alt="">
+            <ul class="hidden sm:flex text-[#424551] gap-[40px]">
+                <li>About us</li>
+                <li class="text-[#FF3F3A]">Courses</li>
+                <li>Events</li>
+                <li>Blog</li>
+                <li>Contacts</li>
+            </ul>  
+            </div>
+            
+            <div class="flex gap-[20px]">
+                <button class="bg-[#FD4929]  rounded-[5px] py-[10px] hidden sm:block sm:px-[40px] text-white">Get consultation</button>
+                <div class="flex items-center gap-[10px]">
+                    <img src="./foto/Profile.png" alt="">
+                    <p class="text-[#424551]">Log in / Register</p>
+                </div>
+            </div>
+        </navbar>
+     </header>
+
+     <main>
+      <section class="w-[70%] box-border  m-auto text-center">
+        <div class="text-center py-[50px]">
+            <p class="text-[#1E212C] font-bold uppercase">Enjoy your studying!</p>
+        <p class="text-[#1E212C] font-bold text-[46px]">Our online courses</p>  
+        </div>
+        <div class="flex items-center justify-between">
+            <ul class=" hidden sm:flex text-[#9A9CA5] items-center gap-[40px]">
+                <li class="py-[7px] px-[15px] border-solid border-2 text-[#ff3f3a] border-[#FF3F3A]">All</li>
+                <li>Marketing</li>
+                <li>Managment</li>
+                <li>Hr & Recruting</li>
+                <li>Design</li>
+                <li>Development</li>
+            </ul>
+
+            <div class="flex border-solid border-2 border-gray-400  justify-between rounded-[10px] px-[20px] py-[10px] items-center">
+                <input type="text" placeholder="Email adress" 
+                class="w-[200px] bg-transparent ">
+                <img src="./foto/search.png" alt="">
+            </div>
+        </div>
+      </section>
+
+      <section class="px-[30px] sm:px-[0px] py-[50px]  sm:w-[70%] m-auto grid pb-[100px] gap-[20px] sm:grid-cols-3 grid-rows-3">
+        <div class="flex flex-col gap-[20px] shadow-2xl border-solid border-[2px] rounded-[5px] border-gray-200">
+            <img src="./foto/first.jpeg" alt="">
+            <div class="flex  px-[20px] pb-[20px]  flex-col sm:gap-[25px] justify-center">
+                <p class="bg-[#03CEA4] text-white w-[100px] text-center rounded-[5px] py-[3px] "> Marketing</p>
+                <p class="text-[#1E212C] font-bold text-[16px]">The Ultimate Google Ads Training <br>  Course</p>
+                <p class="text-[#787A80]"> <span class="text-[#FF4242]">$100</span> | by Jerame Bell </p>
+            </div>
+        </div>
+        <div class="flex flex-col   gap-[30px] shadow-2xl border-solid border-[2px] rounded-[5px] border-gray-200">
+            <img src="./foto/second.jpeg" alt="">
+            <div class="flex px-[20px] pb-[20px] flex-col sm:gap-[25px] justify-center">
+                <p class="bg-[#5A87FC] text-white w-[100px] text-center rounded-[5px] py-[3px] "> Managment</p>
+                <p class="text-[#1E212C] font-bold text-[16px]">The Ultimate Google Ads Training <br>  Course</p>
+                <p class="text-[#787A80]"> <span class="text-[#FF4242]">$100</span> | by Jerame Bell </p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-[30px] shadow-2xl border-solid border-[2px] rounded-[5px] border-gray-200">
+            <img src="./foto/third.jpeg" alt="">
+            <div class="flex px-[20px] pb-[20px] flex-col sm:gap-[25px] justify-center">
+                <p class="bg-[#F89828] text-white w-[130px] text-center rounded-[5px] py-[3px] "> HR & Recruting</p>
+                <p class="text-[#1E212C] font-bold text-[16px]">The Ultimate Google Ads Training <br>  Course</p>
+                <p class="text-[#787A80]"> <span class="text-[#FF4242]">$100</span> | by Jerame Bell </p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-[30px] shadow-2xl border-solid border-[2px] rounded-[5px] border-gray-200">
+            <img src="./foto/forth.jpeg" alt="">
+            <div class="flex px-[20px] pb-[20px] flex-col sm:gap-[25px] justify-center">
+                <p class="bg-[#03CEA4] text-white w-[100px] text-center rounded-[5px] py-[3px] "> Marketing</p>
+                <p class="text-[#1E212C] font-bold text-[16px]">The Ultimate Google Ads Training <br>  Course</p>
+                <p class="text-[#787A80]"> <span class="text-[#FF4242]">$100</span> | by Jerame Bell </p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-[30px] shadow-2xl border-solid border-[2px] rounded-[5px] border-gray-200">
+            <img src="./foto/fifth.jpeg" alt="">
+            <div class="flex px-[20px] pb-[20px] flex-col sm:gap-[25px] justify-center">
+                <p class="bg-[#5A87FC] text-white w-[100px] text-center rounded-[5px] py-[3px] "> Managment</p>
+                <p class="text-[#1E212C] font-bold text-[16px]">The Ultimate Google Ads Training <br>  Course</p>
+                <p class="text-[#787A80]"> <span class="text-[#FF4242]">$100</span> | by Jerame Bell </p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-[30px] shadow-2xl border-solid border-[2px] rounded-[5px] border-gray-200">
+            <img src="./foto/six.jpeg" alt="">
+            <div class="flex px-[20px] pb-[20px] flex-col sm:gap-[25px] justify-center">
+                <p class="bg-[#F52F6E] text-white w-[100px] text-center rounded-[5px] py-[3px] "> Design</p>
+                <p class="text-[#1E212C] font-bold text-[16px]">The Ultimate Google Ads Training <br>  Course</p>
+                <p class="text-[#787A80]"> <span class="text-[#FF4242]">$100</span> | by Jerame Bell </p>
+            </div>
+        </div>
+        <div class="flex flex-col   gap-[30px] shadow-2xl border-solid border-[2px] rounded-[5px] border-gray-200">
+            <img src="./foto/second.jpeg" alt="">
+            <div class="flex px-[20px] pb-[20px] flex-col sm:gap-[25px] justify-center">
+                <p class="bg-[#5A87FC] text-white w-[100px] text-center rounded-[5px] py-[3px] "> Managment</p>
+                <p class="text-[#1E212C] font-bold text-[16px]">The Ultimate Google Ads Training <br>  Course</p>
+                <p class="text-[#787A80]"> <span class="text-[#FF4242]">$100</span> | by Jerame Bell </p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-[30px] shadow-2xl border-solid border-[2px] rounded-[5px] border-gray-200">
+            <img src="./foto/six.jpeg" alt="">
+            <div class="flex px-[20px] pb-[20px] flex-col sm:gap-[25px] justify-center">
+                <p class="bg-[#F52F6E] text-white w-[100px] text-center rounded-[5px] py-[3px] "> Design</p>
+                <p class="text-[#1E212C] font-bold text-[16px]">The Ultimate Google Ads Training <br>  Course</p>
+                <p class="text-[#787A80]"> <span class="text-[#FF4242]">$100</span> | by Jerame Bell </p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-[30px] shadow-2xl border-solid border-[2px] rounded-[5px] border-gray-200">
+            <img src="./foto/forth.jpeg" alt="">
+            <div class="flex px-[20px] pb-[20px] flex-col sm:gap-[25px] justify-center">
+                <p class="bg-[#03CEA4] text-white w-[100px] text-center rounded-[5px] py-[3px] "> Marketing</p>
+                <p class="text-[#1E212C] font-bold text-[16px]">The Ultimate Google Ads Training <br>  Course</p>
+                <p class="text-[#787A80]"> <span class="text-[#FF4242]">$100</span> | by Jerame Bell </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="izzy h-[1000px] sm:h-[650px] py-[40px]">
+        <div class="text-center py-[30px]">
+            <p class="text-[#1E212C] font-bold uppercase">testimonials</p>
+        <p class="text-[#1E212C] font-bold text-[46px]">What our students say</p>  
+        </div>
+
+        <div class=" w-[90%] sm:w-[70%] bg-white flex flex-col gap-[20px] py-[50px] px-[60px] m-auto">
+            <div class="flex items-start justify-center   gap-[20px] text-[20px] "> 
+                <img src="./foto/braces.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam <br> viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis <br> tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. <br> Pulvinar neque pharetra arcu diam maecenas diam integer in.</p>
+            </div>
+            <div class="flex items-center gap-[10px]  ml-[50px] sm:ml-[120px]">
+                <img src="./foto/image (58).png" alt="">
+                <div>
+                    <p>Eleanor Pena</p>
+                    <p>Position, Course</p>
+                </div>
+            </div>
+        </div>
+
+        <img src="./foto/dots.png" alt="">
+    </section>
+
+        <section class=" px-[30px] sm:px-[0px]  sm:w-[70%] py-[60px] gap-[50px] m-auto flex flex-col sm:flex-row justify-between">
+            <aside class="sm:w-[50%] flex flex-col justify-center">
+                <p class="text-[#1E212C] uppercase text-[20px]">Createx Certificate</p>
+                <p class="text-[#1E212C] text-[46px]">Your expertise will <br> be confirmed</p>
+                <p class="text-[#424551] py-[20px]">We are accredited by international professional <br> organizations and institutes:</p>
+                <img src="./foto/logos.png" alt="">
+            </aside>
+            <aside >
+                <img src="./foto/sertificat.jpeg" alt="" class="shadow-2xl ">
+            </aside>
+        </section>
+     </main>
+
+     <footer>
+        <section class="bg-[#FEDECF] h-[530px] flex  justify-center sm:justify-between">
+            <div class=" hidden sm:flex items-end">
+                <img src="./foto/illustration (3).png" alt="">
+            </div>
+            <div class="text-[#1E212C] flex flex-col gap-[20px] pt-[100px] text-center">
+                <div>
+                  <p class="text-[16px] uppercase">Don’t miss anything</p>
+                <p class="text-[20px] sm:text-[46px] leading-[60px] font-bold mb-[50px]">Subscribe to the Createx School <br> announcements</p>   
+                </div>
+               
+                <div class="flex gap-[20px]  justify-center">
+                    <input type="text" placeholder="Your working email" 
+                    class="w-[250px] sm:w-[400px] py-[10px] px-[10px] outline-none border-solid border-2 border-gray-300">
+                    <button class="bg-[#FD4929]  py-[10px] rounded-[5px] px-[30px] text-[#ffffff]">Subscribe</button>
+                </div>
+            </div>
+            <div class=" hidden sm:flex items-end">
+                <img src="./foto/illustration (3).png" alt="">
+            </div>
+        </section>
+
+        <section class="bg-[#1E212C] py-[60px] w-[100%]">
+            <aside class="text-[white] w-[70%] gap-[50px] m-auto flex flex-col sm:flex-row justify-between">
+              <div class="flex flex-col gap-[20px] items-start">
+                <img src="./foto/logo (3).png" alt="">
+                <p class="text-[14px]">Createx Online School is a leader in online studying.  We have lots of courses and programs from the main market experts. We provide relevant approaches  to online learning, internships and employment in the largest companies in the country. </p>
+                <img src="./foto/socials.png" alt="">
+            </div>
+            <div class="flex flex-col gap-[20px] text-[14px] items-start">
+                <p class="uppercase text-[18px] w-[100px]">Site map</p>
+                <p>About us</p>
+                <p>Courses</p>
+                <p>Events</p>
+                <p>Blog</p>
+                <p>Contact</p>
+            </div>
+            <div class="flex flex-col gap-[20px] text-[14px] items-start">
+                <p class="uppercase text-[18px]">courses</p>
+                <p>Marketing</p>
+                <p>Managment</p>
+                <p>Hr & Recruting</p>
+                <p>Design</p>
+                <p>Development</p>
+            </div>
+            <div class="flex flex-col text-[14px] gap-[20px] items-start">
+                <p class="uppercase text-[18px]">Contact us</p>
+                <div class="flex gap-[10px] items-center">
+                    <img src="./foto/iPhone.png" alt="">
+                    <p>(405) 987 789</p>
+                </div>
+                <div class="flex gap-[10px] items-center">
+                    <img src="./foto/Mail.png" alt="">
+                    <p>hello@gmail.com</p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-[20px] items-start">
+                <p class="uppercase text-[17px]">sign up to our newsteller</p>
+                <div class="flex bg-[#FFFFFF1F] justify-between rounded-[20px] px-[20px] py-[10px] items-center">
+                    <input type="text" placeholder="Email adress" 
+                    class="w-[200px] bg-transparent ">
+                    <img src="./foto/right2.png" alt="">
+                </div>
+                <p class="text-[12px]">*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.</p>
+            </div>   
+            </aside>
+           
+        </section>
+
+        <section class="w-[100%]  bg-[#1E212C]   text-white py-[20px]">
+            <div class="w-[70%] m-auto flex flex-col sm:flex-row gap-[20px] sm:gap-[0px] justify-between">
+                <p>© All rights reserved. Made with love by Createx Studio </p>
+            <p class="uppercase"> go to top</p>
+            </div>
+            
+        </section>
+    </footer>
+
+    <style>
+     .izzy{
+        background-image: url(./foto/background.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+     }
+    </style>
 </body>
 </html>
